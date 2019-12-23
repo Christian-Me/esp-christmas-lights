@@ -3,8 +3,8 @@
     "device_id": "Christmas-Tree",
     "device_stats_interval": 60,
     "wifi": {
-      "ssid": "<your ssid>",
-      "password": "<your password>"
+      "ssid": "<your ssid goes here>",
+      "password": "<your password here>"
     },
     "mqtt": {
       "host": "192.168.2.14",
