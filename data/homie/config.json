@@ -1,8 +1,8 @@
 {
     "name": "christmas light",
     "wifi": {
-      "ssid": "LOL-AP-01",
-      "password": "WLAN1lrB&bB2!AP1"
+      "ssid": "your ssid",
+      "password": "your password"
     },
     "mqtt": {
       "host": "192.168.2.14",
