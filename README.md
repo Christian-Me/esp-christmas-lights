@@ -16,18 +16,37 @@ I used the homie [convention esp8266 lib in version 3.0.1](https://homieiot.gith
 It ended that 2100 LEDs are running on 3-6W power instead 18W before - nice.
 
 ## pictures
+
 ![one version with external h-bridge](./img/IMG_1071.jpg)
+
 one version with external h-bridge
+
 ![one with internal h-bridge and without eeprom. The memory seams to be included in the micro](./img/IMG_1072.jpg)
+
 one with internal h-bridge and without eeprom. The memory seams to be included in the micro
+
 ![ttl-timing seams perfect](./img/IMG_1073.jpg)
+
 ttl-timing seams perfect
+
 ![but not always](./img/IMG_1075.jpg)
+
 but not always, see the delay on the second output
+
 ![not perfect but working](./img/IMG_1077.jpg)
+
 not perfect but working
+
 ![simple flow thanks to the homie convention](./img/IMG_1079.jpg)
+
 simple flow thanks to the homie convention.
+
+## wiring all together
+
+[this blog entry gave me a quick start](https://lanzerdiy.wordpress.com/2019/01/16/arduino-led-christmas-light-controller/)
+Replace the arduino by an EPS8266 and you are done. You can use a current limiting power supply of your choice or tap of the voltage from the included driver/transformer (before the microcontroller do his awfull job).
+
+**BE CARFUL YOU ARE DEALING WITH MAINS POWER! IF YOU HAVE NO EXPERIENCE THIS PROJECT IS NOT FOR YOU, SORRY**
 
 ## Node-RED
 
