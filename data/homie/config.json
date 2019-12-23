@@ -1,0 +1,14 @@
+{
+    "name": "christmas light",
+    "wifi": {
+      "ssid": "LOL-AP-01",
+      "password": "WLAN1lrB&bB2!AP1"
+    },
+    "mqtt": {
+      "host": "192.168.2.14",
+      "port": 1883
+    },
+    "ota": {
+      "enabled": true
+    }
+  }

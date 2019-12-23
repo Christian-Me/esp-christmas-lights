@@ -1,0 +1,19 @@
+{
+    "name": "christmas light",
+    "device_id": "Christmas-Tree",
+    "device_stats_interval": 60,
+    "wifi": {
+      "ssid": "<your ssid>",
+      "password": "<your password>"
+    },
+    "mqtt": {
+      "host": "192.168.2.14",
+      "port": 1883
+    },
+    "ota": {
+      "enabled": true
+    },
+    "settings": {
+        "percentage": 50
+      }
+  }
